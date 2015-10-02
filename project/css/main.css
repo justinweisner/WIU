@@ -3,8 +3,9 @@
 body{
 	font-size: 62.5%;
 	font-family: helvetica, arial, sans-serif;
-	color:#545257; /*changes color of the whole text*/
+	color: yellow; /*changes color of the whole text*/
 	margin-top: 0;
+	background-color: red;
 }
 #wrapper{
 	width:960px;
@@ -20,6 +21,9 @@ body{
 
 header{
 	border-bottom: 1px solid #bbb8bf; /*changes color of border under project name*/
+	text-align: center;
+	font-size: 3em;
+	
 }
 h1{
 	margin-top: 0;
@@ -68,7 +72,9 @@ td:first-child{
 .main p{
 	width: 67.5%;
 	float: left;
-	font-size: 1.4em;
+	font-size: 2em;
+	color: blue;
+	
 
 }
 .main figure{
